@@ -19,6 +19,6 @@ print(f"\n{rsa_key.decode()}")
 print("\n[+] Encrypting github token...")
 
 encrypted = encryptor.encrypt(b'PAT here')
-print("[*] Put the encrypted token into the source of git_trojan.py:")
+print("[*] Put the encrypted token into the source of zombie.py:")
 print(f'\n{encrypted}')
 
