@@ -14,6 +14,8 @@ from Cryptodome.PublicKey import RSA
 import ast
 from datetime import datetime
 
+## comment out the print statements to avoid commandline appearing
+
 class SessionHandler:
 	def __init__(self):
 		pass
